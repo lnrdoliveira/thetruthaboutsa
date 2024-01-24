@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    font-family: 'Courier New', monospace; /* Fonte com estética quadradona */
+    color: #00ff00; /* Letras verdes (cor com temática hacker) */
+    overflow: hidden; /* Bloqueia a barra de rolagem */
+    user-select: none; /* Desativa a seleção de texto */
+}
+
+#container {
+    border: 2px solid green;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #00ff00; /* Letras verdes (cor com temática hacker) */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111; /* Cor de fundo do retângulo */
+}
+
+section {
+    display: none;
+}
+p {
+    max-width: 600px; /* Define o máximo de largura para quebrar a linha */
+    margin: 0 auto; /* Centraliza o parágrafo dentro do contêiner */
+    text-align: left; /* Centraliza o texto dentro do contêiner */
+
+}
+pre {
+    max-width: 600px; /* Define o máximo de largura para quebrar a linha */
+    margin: 0 auto; /* Centraliza o parágrafo dentro do contêiner */
+
+}
+h2 {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
